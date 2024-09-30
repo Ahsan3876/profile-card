@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.large-box{
+width: 405px;
+height: 520px;
+position: fixed;
+inset: 0;
+margin: auto;
+backdrop-filter: blur(10px);
+
+border-radius: 12px;
+background-image: linear-gradient(148deg,rgba(90, 89, 89, 0.5) 100%,rgba(192, 190, 190, 0.4)0%);
+border: 0.74px solid;
+box-shadow: 0px 0px 12px 0px;
+/* backdrop-filter: blur(10px); */
+
+
+}
+.small-box{
+    width: 370px;
+    height: 485px;
+   border-style: solid white;
+   position: absolute;
+   inset: 0;
+   margin: auto;
+   border-radius: 12px;
+   /* background: linear-gradient(rgba(122, 121, 121, 0.9) 10%,rgba(192, 190, 190, 0.9)90%); */
+   background-image: linear-gradient(148deg,rgba(90, 89, 89, 0.3) 100%,rgba(192, 190, 190, 0.4)0%);
+   /* box-shadow: 0px 0px 2px; */
+}
+.heart-pic{
+    position: absolute;
+    right: 20px;
+    top: 225px;
+}
+.beginner{
+    position: absolute;
+    top:225px;
+    left: 20px;
+}
+.container{
+    position: absolute;
+    top:250px;
+    left: 20px;
+    text-align: start;
+    color: white;
+    font-weight: 500;
+}
+.editor{
+    position: absolute;
+    top:300px;
+    left: 20px;
+    color: rgba(255, 255, 255, 1);
+}
+.stars{
+    position: absolute;
+    top:350px;
+    left: 20px;
+}
+.Rating{
+    position: absolute;
+    top:355px;
+    left: 160px;
+}
+.brackets{
+    position: absolute;
+    top:355px;
+    left: 200px;
+}
+
+.button{
+    background-color:inherit;
+    position: absolute;
+    height: 90px;
+    width: 370px;
+    top: 395px;
+    left: 0px;
+    /* border-radius: inherit; */
+    border: inherit;
+    box-shadow: inherit;
+    background-image: linear-gradient(148deg,rgba(90, 89, 89, 0.1) 100%,rgba(192, 190, 190, 0.4)0%);
+   box-shadow: 0px 0px 2px;
+}
+.button:hover{
+    background-image: linear-gradient(148deg,rgba(90, 89, 89, 0.8) 100%,rgba(192, 190, 190, 0.4)0%);
+cursor: pointer;
+}
+
+.card-container{
+    width: 405px;
+height: 520px;
+position: fixed;
+inset: 0;
+margin: auto;
+}
+.circle1{
+    position: absolute;
+    top: -100px;
+    left: 242px;
+    backdrop-filter: blur(100px);
+}
+.circle2{
+    position: absolute;
+    bottom: 430px;
+    right: 300px;
+    backdrop-filter: blur(100px);
+}
+.circle3{
+    position: absolute;
+    bottom: -110px;
+    right: 315px;
+}
+.heart-pic:hover{
+    cursor: pointer;
+}
